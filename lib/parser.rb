@@ -19,3 +19,9 @@ class Parser
         raise "File doesn't exists" unless File.exists?(file_path)
     end
 end
+
+# If called from command line
+# if __FILE__ == $PROGRAM_NAME
+#     file_path = "./#{ARGV[0]}"
+#     Parser.new(file_path).parse
+# end

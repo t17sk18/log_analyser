@@ -24,7 +24,7 @@ criteria above, but would produce better outcomes and of course, the sooner you 
 ```sh
 clone this repo && cd smart_pernsion_ruby_app
 run 'bundle' 
-$ ./parser webserver.log
+$ lib/analyser.rb webserver.log 
 $ bin/rspec
 ```
 

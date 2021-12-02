@@ -31,4 +31,8 @@ class Analyser
     
 end
 
-# Analyser.new('./webserver.log').analyser_output
+# If called from command line
+if __FILE__ == $PROGRAM_NAME
+    file_path = "./#{ARGV[0]}"
+    Analyser.new(file_path).analyser_output
+end
