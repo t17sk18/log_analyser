@@ -30,6 +30,7 @@ $ bin/rspec
 
 ## Implementation
 This app was implemented using Test Driven Development.
+
 Requirements
 -  parsing the log
 -  analysing and implementing the appropriate logic 
