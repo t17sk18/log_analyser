@@ -29,8 +29,13 @@ $ bin/rspec
 ```
 
 ## Implementation
-I came up with the idea for this app and built the basic framework using Test Driven Development.
-I had the idea to split down the requirements at first. i.e., parsing the log, analysing and implementing the appropriate logic, and finally, displaying the results in the terminal. After a few hours of back and forth, I had my first functional app. I started with basic tests and gradually implemented the logic that failed the tests.
+This app was implemented using Test Driven Development.
+Requirements
+-  parsing the log
+-  analysing and implementing the appropriate logic 
+-  finally, displaying the results in the terminal. 
+
+I started with basic tests and gradually implemented the logic that failed the tests and going back and forth, I had the first functional app (Version 1).
 
 ## Future Scope 
 Because the app was built in a short amount of time for this test, there is a lot that can be improved over time: 
