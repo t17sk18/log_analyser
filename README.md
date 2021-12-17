@@ -1,4 +1,4 @@
-# Smart Pension Ruby Test
+# Log Analyser
 To write a Ruby script that:
 - a.  Receives a log as argument (webserver.log is provided)
   e.g.: ./parser.rb webserver.log
